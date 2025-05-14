@@ -1,0 +1,63 @@
+/* Custom dark mode overrides for no-style-please theme */
+
+:root {
+  --no-style-background: #ffffff;
+  --no-style-text: #222222;
+  --no-style-anchor: #0366d6;
+  --no-style-anchor-visited: #551a8b;
+  --no-style-highlight: #ffff00;
+  --no-style-font-family: monospace;
+  --no-style-font-size: 16px;
+  --no-style-h1-font-size: 32px;
+  --no-style-line-height: 1.5;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --no-style-background: #1e1e1e;
+    --no-style-text: #e0e0e0;
+    --no-style-anchor: #58a6ff;
+    --no-style-anchor-visited: #a280e0;
+    --no-style-highlight: #665c00;
+  }
+}
+
+html {
+  background-color: var(--no-style-background);
+  color: var(--no-style-text);
+  font-family: var(--no-style-font-family);
+  font-size: var(--no-style-font-size);
+  line-height: var(--no-style-line-height);
+}
+
+body {
+  background-color: var(--no-style-background);
+  color: var(--no-style-text);
+  font-family: var(--no-style-font-family);
+  font-size: var(--no-style-font-size);
+  line-height: var(--no-style-line-height);
+}
+
+.wrapper {
+  width: fit-content;
+  max-width: 640px;
+  margin: 4rem auto;
+  padding: 0 1rem;
+}
+
+a {
+  color: var(--no-style-anchor);
+}
+
+a:visited {
+  color: var(--no-style-anchor-visited);
+}
+
+h1 {
+  font-size: var(--no-style-h1-font-size);
+  line-height: 1.5;
+}
+
+mark {
+  background-color: var(--no-style-highlight);
+} 

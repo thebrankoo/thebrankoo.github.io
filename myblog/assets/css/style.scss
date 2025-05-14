@@ -1,0 +1,81 @@
+@import "{{ site.theme }}";
+
+:root {
+  --background-color: #ffffff;
+  --text-color: #222222;
+  --link-color: #0366d6;
+  --heading-color: #111111;
+  --blockquote-color: #777777;
+  --code-background-color: #f6f8fa;
+  --code-text-color: #24292e;
+  --border-color: #ddd;
+  --font-family: monospace;
+  --font-size: 16px;
+  --h1-font-size: 32px;
+  --line-height: 1.5;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background-color: #1e1e1e;
+    --text-color: #e0e0e0;
+    --link-color: #58a6ff;
+    --heading-color: #ffffff;
+    --blockquote-color: #aaaaaa;
+    --code-background-color: #2d2d2d;
+    --code-text-color: #e0e0e0;
+    --border-color: #444;
+  }
+}
+
+body {
+  background-color: var(--background-color);
+  color: var(--text-color);
+  font-family: var(--font-family);
+  font-size: var(--font-size);
+  line-height: var(--line-height);
+}
+
+.wrapper {
+  width: fit-content;
+  max-width: 640px;
+  margin: 4rem auto;
+  padding: 0 1rem;
+}
+
+a, a:visited {
+  color: var(--link-color);
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: var(--heading-color);
+  line-height: calc(var(--line-height) * 1.2);
+}
+
+h1 {
+  font-size: var(--h1-font-size);
+  line-height: 1.5;
+}
+
+blockquote {
+  color: var(--blockquote-color);
+  border-left-color: var(--border-color);
+}
+
+code, pre {
+  background-color: var(--code-background-color);
+  color: var(--code-text-color);
+  font-family: var(--font-family);
+}
+
+hr, table, th, td {
+  border-color: var(--border-color);
+}
+
+hr {
+  text-align: center;
+  border: 0;
+}
+
+hr:before { content: '/////' }
+hr:after { content: attr(data-content) '/////' } 
