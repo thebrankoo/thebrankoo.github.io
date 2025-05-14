@@ -18,29 +18,21 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: Branko Popovic
-email: popovich.branko@gmail.com
-author: Branko Popovic
+title: Branko Popovic | Senior iOS Developer
+email: popovich.branko[at]gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
-  Branko Popovic – Senior iOS Developer with 12+ years of experience building high-performance, 
-  user-friendly iOS apps. Explore my projects, skills, or just say hello.
+  Branko Popovic – Senior iOS Developer with 12+ years of experience
+   building high-performance, user-friendly iOS apps. Explore my projects, skills, or just say hi 😊.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 github_username:  thebrankoo
-favicon: "./logo.png"
+favicon: logo.png
 
 # Build settings
 theme: no-style-please
-
-theme_config:
-  back_home_text: ".." # customize text for homepage link in post layout
-  date_format: "%Y-%m-%d" # customize how date is formatted
-  show_description: true # show blog description in home pag
-
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
-
 # Exclude from processing.
 # The following items will not be processed, by default.
 # Any item listed under the `exclude:` key here will be automatically added to

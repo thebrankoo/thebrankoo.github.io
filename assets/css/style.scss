@@ -1,0 +1,15 @@
+// Custom CSS to prevent emoji inversion
+@media (prefers-color-scheme: dark) {
+  body[a=auto] .emoji {
+    filter: invert(0) !important;
+  }
+}
+
+body[a=dark] .emoji {
+  filter: invert(0) !important;
+}
+
+// Apply special class to emojis
+.emoji {
+  display: inline !important;
+} 
