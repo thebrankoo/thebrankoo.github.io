@@ -15,5 +15,19 @@ Below you'll find some of my personal [projects](#projects) <span class="emoji">
 
 ## Projects
 
-- [TextOnImageAI](https://textonimageai.com) (<span class="emoji">🚀</span> Live) 
-  -  <span class="emoji">🟡</span> Not Maintained
+### [DIVAS](https://github.com/thebrankoo/divas_ai) (<span class="emoji">🛠️</span> In progress) <span class="emoji">🟢</span> Active
+- OpenAI based AI agent
+- Creates daily diet plan
+- Technologies: Python
+
+### [TextOnImageAI](https://textonimageai.com) (<span class="emoji">🚀</span> Live) <span class="emoji">🟡</span> Idle
+- Developed an AI/LLM-based image generator that creates three unique
+visuals from user-provided text, each overlaid with summarized or
+descriptive text
+- Leveraged large language models to interpret input and guide image
+generation.
+- LLM Model used: gemini-2.0-flash
+- Image generated with stability.ai model sd3.5-large-turbo
+- Project developed using Cursor code editor.
+- Technologies: Cursor, NextJS, Vercel, Typescript, shadcn, Supabase, Prisma, Git,
+Cloudflare R2 Object Storage, Gemini, StabilityAI
