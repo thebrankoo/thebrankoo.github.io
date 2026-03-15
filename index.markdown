@@ -15,12 +15,16 @@ Below you'll find some of my personal [projects](#projects) <span class="emoji">
 
 ## Projects
 
-### [DIVAS](https://github.com/thebrankoo/divas_ai) (<span class="emoji">🛠️</span> In progress) <span class="emoji">🟢</span> Active
+### [Anchor - Bet Blocker](https://heyanchor.app) <span class="emoji">🟢</span> Active
+- iOS app that blocks gambling apps and websites using Apple's Screen Time APIs.
+- Shows roast messages on blocked apps, tracks gamble-free streaks with estimated savings, and provides an SOS flow with breathing exercises, physical challenges, and creative tasks.
+
+### [DIVAS](https://github.com/thebrankoo/divas_ai) <span class="emoji">💀</span> Dead
 - OpenAI based AI agent
 - Creates daily diet plan
 - Technologies: Python
 
-### [TextOnImageAI](https://textonimageai.com) (<span class="emoji">🚀</span> Live) <span class="emoji">🟡</span> Idle
+### [TextOnImageAI](https://textonimageai.com) <span class="emoji">💀</span> Dead
 - Developed an AI/LLM-based image generator that creates three unique
 visuals from user-provided text, each overlaid with summarized or
 descriptive text
